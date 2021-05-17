@@ -17,3 +17,4 @@ def get_product(product_id):
     for product in json_products:
         if product['id'] == int(product_id):
             return product
+    return ('', 404)
