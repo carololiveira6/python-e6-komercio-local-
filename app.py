@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, request
 from flask_cors import CORS
 from komercio import json_products
-from paginator import pagination
+from services.paginator import pagination
 
 app = Flask(__name__)
 CORS(app)
